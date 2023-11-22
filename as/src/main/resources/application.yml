@@ -1,0 +1,9 @@
+server.port: 8081
+
+PORT_CLIENT: 8082
+HOST_CLIENT: localhost
+
+---
+spring.config.activate.on-profile: docker
+server.port: 8080
+

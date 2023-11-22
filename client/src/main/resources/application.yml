@@ -1,0 +1,19 @@
+server.port: 8082
+
+PORT_AS: 8081
+HOST_AS: localhost
+PORT_RS: 8083
+HOST_RS: localhost
+
+logging:
+  level:
+    root: INFO
+
+---
+spring.config.activate.on-profile: docker
+server.port: 8080
+
+PORT_AS: 8080
+HOST_AS: as
+PORT_RS: 8080
+HOST_RS: rs

@@ -1,0 +1,1 @@
+http://localhost:8081/oauth2/authorize?response_type=code&client_id=client2&scope=openid&redirect_uri=http://localhost:8082/authorized

@@ -1,4 +1,4 @@
-Spring OAUTH2 Open ID Connect authentication server with client and resource server
+Spring OAUTH2 Open ID Connect authorization server with client and resource server
 
 In this building block, we create a Spring Security OAuth2 Open ID Connect server, a client and a resource server. The client
 will use the Authorization code grant type and after receiving the access token from the authentication server, the client
